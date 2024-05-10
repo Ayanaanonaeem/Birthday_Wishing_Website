@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#btn{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 23px;
+}
+#btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    
+}
+.container-1{
+    /* border: 2px solid rgb(255, 0, 0); */
+    height: 400px;
+    width: 100%;
+    
+    margin-top: 30px;
+    visibility:hidden;
+}
+.container-1 p{
+    /* border: 2px solid black; */
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    
+    
+}
+.five{
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+
+    
+}
+.one{
+    background-color: rgb(238, 255, 0);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.two{
+    background-color: rgb(0, 89, 255);
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.three{
+    background-color: rgb(255, 0, 0);
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.four{
+    background-color: rgb(255, 0, 242);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+
+}
+.six{
+    background-color: rgb(119, 0, 255);
+   font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-style: italic;
+}
+.seven{
+    background-color: rgb(255, 115, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.eight{
+    background-color: rgb(184, 172, 146);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nine{
+    background-color: rgb(28, 223, 206);
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-style: inherit;
+}
+.ten{
+    background-color: rgb(67, 223, 28);
+    font-family:'Arial Narrow Bold', sans-serif;
+}
